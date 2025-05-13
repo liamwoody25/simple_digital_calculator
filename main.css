@@ -1,3 +1,9 @@
+/**** calculator typeography ****/
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
 /**** calculator body****/
 
 .calculator-container {
@@ -73,7 +79,7 @@ input {
   border-radius: 50px;
   border: none;
   background-color: #50545d;
-  width: 50%;
+  width: 55%;
   box-shadow: 1px 8px 23px -13px #000, 
   -11px -4px 17px -17px #FFf;
   color: #fff;

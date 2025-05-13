@@ -12,7 +12,12 @@ function numberInput() {
   }
 }
 
-
+function clearDisplay() {
+  const clearButton = document.querySelector('.AC-key');
+  clearButton.addEventListener('click', function(){
+    display.value = '  ';
+  })
+}
 
 function operateAdd() {
  const addButton = document.querySelector('.add-key');
@@ -32,14 +37,20 @@ function operateSubtract() {
 function operateMultiply() {
   const multiplyButton = document.querySelector('.multiply-key');
   multiplyButton.addEventListener('click', function(){
-    display.value += ' x '
+    display.value += ' x ';
   })
+}
+
+function calculateNum() {
+  let num
+  if (addButton === '' ) {
+    display.value += '+';
+  }
 }
 
 
 
-
-
+clearDisplay()
 
 operateMultiply()
 operateSubtract()
