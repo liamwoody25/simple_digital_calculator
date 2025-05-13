@@ -1,0 +1,95 @@
+/**** calculator body****/
+
+.calculator-container {
+  width: 25%;
+  background-color: #50545d;
+  border-radius: 5px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom right, #87ceeb, #ffc0cb);
+  background-repeat: no-repeat;
+}
+
+/**** calculator screen ****/
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0px 15px 0px;
+}
+
+input {
+  padding: 0px 20px 0px 20px;
+  border: none;
+  background-color: #cccccc;
+  text-align: end;
+  box-shadow: inset 0px 1px 7px 1px gray ;
+  width: 75%;
+  height: 50px;
+  font-size: 20px;
+}
+
+/***** calculator main *****/
+
+.number-btns {
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.number-key {
+  cursor: pointer;
+  border: none;
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  background-color: #50545d;
+  box-shadow: 1px 8px 23px -13px #000, 
+  -11px -4px 17px -17px #FFF;
+  color: #fff;
+}
+
+#zero {
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  background-color: #50545d;
+  width: 45%;
+}
+
+.operation-btns {
+  display: flex;
+  flex-wrap: wrap;
+ 
+  justify-content: space-around;
+}
+
+#ac-key {
+  cursor: pointer;
+  border-radius: 50px;
+  border: none;
+  background-color: #50545d;
+  width: 50%;
+  box-shadow: 1px 8px 23px -13px #000, 
+  -11px -4px 17px -17px #FFf;
+  color: #fff;
+}
+
+.add-key,
+.subtract-key,
+.multiply-key,
+.divide-key {
+  cursor: pointer;
+  border-radius: 50px;
+  color: #fff;
+  border: none;
+  width:55px;
+  height: 55px;
+  background-color: #50545d;
+  box-shadow:  1px 8px 23px -13px #000, 
+  -11px -4px 17px -17px #FFF;
+}
