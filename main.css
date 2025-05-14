@@ -70,7 +70,6 @@ input {
 .operation-btns {
   display: flex;
   flex-wrap: wrap;
- 
   justify-content: space-around;
 }
 
@@ -88,7 +87,9 @@ input {
 .add-key,
 .subtract-key,
 .multiply-key,
-.divide-key {
+.divide-key,
+.decimal-key,
+.equals-key {
   cursor: pointer;
   border-radius: 50px;
   color: #fff;

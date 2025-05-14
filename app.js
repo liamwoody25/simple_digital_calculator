@@ -41,8 +41,15 @@ function operateMultiply() {
   })
 }
 
+function operateEquals() {
+  const equalsButton = document.querySelector('.equals-key')
+  equalsButton.addEventListener('click', function(){
+    display.value += ' = '
+  })
+}
+
 function calculateNum() {
-  let num
+  let num1
   if (addButton === '' ) {
     display.value += '+';
   }
@@ -52,6 +59,7 @@ function calculateNum() {
 
 clearDisplay()
 
+operateEquals()
 operateMultiply()
 operateSubtract()
 operateAdd()
