@@ -15,7 +15,7 @@ function numberInput() {
 function clearDisplay() {
   const clearButton = document.querySelector('.AC-key');
   clearButton.addEventListener('click', function(){
-    display.value = '  ';
+    display.value = ' ';
   })
 }
 
